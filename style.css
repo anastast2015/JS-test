@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    }
+    
+    table {
+        width: 50%;     /* объем занимаемой областитаблицы*/
+        border-collapse: collapse;
+        }
+    
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+    
+th {
+    cursor: pointer;
+}
+
+table {
+width: 50%;
+border-collapse: collapse;
+}
+
+.green-eye {
+    background-color: lightgreen;
+    }
+    
+.brown-eye {
+    background-color: sandybrown;
+    }
+    
+.blue-eye {
+    background-color: lightblue;
+    }
+    
+.hazel-eye {
+    background-color: khaki;
+    }
+
+.red-eye {
+        background-color: red;
+}

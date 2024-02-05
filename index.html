@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Sortable Table</title>
+</head>
+<body>
+<table class="sortable-table" style="width: 50%">
+<thead>
+<tr>
+<th data-sort="firstName">firstName</th>
+<th data-sort="lastName">lastName</th>
+<th data-sort="phone">phone</th>
+<th data-sort="about">about</th>
+<th data-sort="eyeColor">eyeColor</th>
+</tr>
+</thead>
+<tbody id="table-body">
+<!— Data will be inserted here dynamically —>
+</tbody>
+</table>
+
+<script src="data.json"></script>
+<script src="app.js"></script>
+</body>
+
+<div id="editForm" style="display: none;">
+    <input type="text" id="editFirstName" placeholder="First Name">
+    <input type="text" id="editLastName" placeholder="Last Name">
+    <input type="text" id="editPhone" placeholder="Phone">
+    <textarea id="editAbout" placeholder="About"></textarea>
+    <input type="text" id="editEyeColor" placeholder="Eye Color">
+    <button onclick="saveChanges()">Save</button>
+</div>
+
+</html>
